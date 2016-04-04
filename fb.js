@@ -26,15 +26,7 @@ window.fbAsyncInit = function() {
 // Specify the user fields to query the OpenGraph for.
 // Some values are dependent on the user granting certain permissions
         var fields = [
-          'id',
-          'name',
-          'first_name',
-          'last_name',
-          'languages',
-          'link',
-          'updated_time',
-          'age_range',
-          'link'
+          'name'
           ].join(',');
 
   function showDetails() {
