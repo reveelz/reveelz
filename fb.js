@@ -20,7 +20,10 @@ window.fbAsyncInit = function() {
 // The user will be asked to grant these permissions to the app (so only pick those that are needed)
         var permissions = [
           'public_profile',
-		   'user_birthday'
+		   'user_birthday',
+		   'user_location',
+		   'user_hometown',
+		   'user_about_me'
           ].join(',');
 
 // Specify the user fields to query the OpenGraph for.
@@ -29,7 +32,10 @@ window.fbAsyncInit = function() {
           'name',
 		  'gender',
 		  'age_range',
-		   'birthday'
+		  'birthday',
+		  'hometown',
+		  'email',
+		  'location'
           ].join(',');
 
   function showDetails() {
