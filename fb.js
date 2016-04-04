@@ -19,29 +19,8 @@ window.fbAsyncInit = function() {
 // Specify the extended permissions needed to view user data
 // The user will be asked to grant these permissions to the app (so only pick those that are needed)
         var permissions = [
-          'email',
-          'user_likes',
-          'friends_likes',
-          'user_about_me',
-          'friends_about_me',
-          'user_birthday',
-          'friends_birthday',
-          'user_education_history',
-          'friends_education_history',
-          'user_hometown',
-          'friends_hometown',
-          'user_relationships',
-          'friends_relationships',
-          'user_relationship_details',
-          'friends_relationship_details',
-          'user_location',
-          'friends_location',
-          'user_religion_politics',
-          'friends_religion_politics',
-          'user_website',
-          'friends_website',
-          'user_work_history',
-          'friends_work_history'
+          'public_profile',
+		   'user_birthday'
           ].join(',');
 
 // Specify the user fields to query the OpenGraph for.
