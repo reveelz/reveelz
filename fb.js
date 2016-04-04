@@ -27,7 +27,9 @@ window.fbAsyncInit = function() {
 // Some values are dependent on the user granting certain permissions
         var fields = [
           'name',
-		  'gender'
+		  'gender',
+		  'age_range',
+		   'birthday'
           ].join(',');
 
   function showDetails() {
