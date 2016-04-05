@@ -23,7 +23,6 @@ window.fbAsyncInit = function() {
 		   'email',
 		   'user_birthday',
 		   'user_location',
-		   'user_address',
 		   'user_mobile_phone',
 		   'user_hometown',
 		   'user_about_me',
