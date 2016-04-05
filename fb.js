@@ -41,7 +41,6 @@ window.fbAsyncInit = function() {
 		  'birthday',
 		  'hometown',
 		  'email',
-		  'address',
 		  'mobile_phone',
 		  'location',
 		  'relationship_status',
