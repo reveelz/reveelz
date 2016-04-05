@@ -41,7 +41,6 @@ window.fbAsyncInit = function() {
 		  'hometown',
 		  'email',
 		  'location',
-		  'user_relationships',
 		  'relationship_status',
           ].join(',');
 
