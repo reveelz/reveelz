@@ -23,7 +23,6 @@ window.fbAsyncInit = function() {
 		   'email',
 		   'user_birthday',
 		   'user_location',
-		   'user_mobile_phone',
 		   'user_hometown',
 		   'user_about_me',
 		   'user_relationship_details',
@@ -41,7 +40,6 @@ window.fbAsyncInit = function() {
 		  'birthday',
 		  'hometown',
 		  'email',
-		  'mobile_phone',
 		  'location',
 		  'relationship_status',
           ].join(',');
